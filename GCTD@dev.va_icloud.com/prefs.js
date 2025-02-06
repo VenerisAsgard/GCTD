@@ -256,7 +256,7 @@ export default class MainPreferences extends ExtensionPreferences {
             end_icon_name: 'go-next-symbolic'
         });
         githubBtn.connect('activated', () => {
-            Gio.AppInfo.launch_default_for_uri('https://github.com/VenerisAsgard/Desktop-girl', null);
+            Gio.AppInfo.launch_default_for_uri('https://github.com/VenerisAsgard/GCTD/', null);
         });
         const telegramBtn = new Adw.ButtonRow({
             title: _("💬 Communication with the developer (Telegram) 💬"),
