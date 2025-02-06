@@ -1,0 +1,15 @@
+{
+  "name": "Game Crosshair To Desktop",
+  "description": "Displays the scope in those games in which it is not available or disabled.",
+  "uuid": "GCTD@dev.va_icloud.com",
+  "settings-schema": "org.gnome.shell.extensions.GCTD",
+  "gettext-domain": "GCTD@dev.va_icloud.com",
+  "translations": {
+    "ru": "po/ru.po",
+    "en_US": "po/en.po"
+  },
+  "url": "https://github.com/#",
+  "shell-version": [
+    "47"
+  ]
+}

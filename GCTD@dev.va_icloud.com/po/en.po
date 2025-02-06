@@ -1,0 +1,127 @@
+# Gnome Shell Extension - Game Crosshair To Desktop
+# Copyright (C) 2025 Veneris Asgard (dev.va@icloud.com)
+# This file is distributed under the same license as the GCTD@dev.va_icloud.com package.
+msgid ""
+msgstr ""
+"Project-Id-Version: 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-06 21:58+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Veneris Asgard <EMAIL@ADDRESS>\n"
+"Language-Team: Russian <localhost@lorem>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: extension.js:14
+msgid "GCTD@dev.va_icloud.com is enabled."
+msgstr "GCTD@dev.va_icloud.com is enabled."
+
+#: extension.js:22
+msgid "GCTD@dev.va_icloud.com is disabled."
+msgstr "GCTD@dev.va_icloud.com is disabled."
+
+#: prefs.js:13 prefs.js:18
+msgid "Appearance"
+msgstr "Appearance"
+
+#: prefs.js:19
+msgid "Configure the appearance of the extension."
+msgstr "Configure the appearance of the extension."
+
+#: prefs.js:35
+msgid "Delete style"
+msgstr "Delete style"
+
+#: prefs.js:104
+msgid "Open PNG Image"
+msgstr "Open PNG Image"
+
+#: prefs.js:108
+msgid "Open"
+msgstr "Open"
+
+#: prefs.js:109
+msgid "Cancel"
+msgstr "Cancel"
+
+#: prefs.js:157
+msgid "Choose a new style from files"
+msgstr "Choose a new style from files"
+
+#: prefs.js:173
+msgid "Opacity"
+msgstr "Opacity"
+
+#: prefs.js:174
+msgid "Opacity (0-255)"
+msgstr "Opacity (0-255)"
+
+#: prefs.js:183
+msgid "Size"
+msgstr "Size"
+
+#: prefs.js:184
+msgid "Crosshair size (in px)"
+msgstr "Crosshair size (in px)"
+
+#: prefs.js:193
+msgid "Width deviation"
+msgstr "Width deviation"
+
+#: prefs.js:194
+msgid "Deviation in width relative to the center of the screen"
+msgstr "Deviation in width relative to the center of the screen"
+
+#: prefs.js:203
+msgid "Height deviation"
+msgstr "Height deviation"
+
+#: prefs.js:204
+msgid "Deviation in height relative to the center of the screen"
+msgstr "Deviation in height relative to the center of the screen"
+
+#: prefs.js:222
+msgid "Notifications"
+msgstr "Notifications"
+
+#: prefs.js:227
+msgid "Notification"
+msgstr "Notification"
+
+#: prefs.js:228
+msgid "Set up extension notifications and indicator"
+msgstr "Set up extension notifications and indicator"
+
+#: prefs.js:232
+msgid "Display indicator"
+msgstr "Display indicator"
+
+#: prefs.js:233
+msgid "Display the indicator on the panel"
+msgstr "Display the indicator on the panel"
+
+#: prefs.js:237
+msgid "Show Notifications"
+msgstr "Show Notifications"
+
+#: prefs.js:238
+msgid "Show extension notifications"
+msgstr "Show extension notifications"
+
+#: prefs.js:246 prefs.js:251
+msgid "Credits"
+msgstr "Credits"
+
+#: prefs.js:252
+msgid "Credits page"
+msgstr "Credits page"
+
+#: prefs.js:255
+msgid "⭐ Extension page on GitHub ⭐"
+msgstr "⭐ Extension page on GitHub ⭐"
+
+#: prefs.js:262
+msgid "💬 Communication with the developer (Telegram) 💬"
+msgstr "💬 Communication with the developer (Telegram) 💬"
