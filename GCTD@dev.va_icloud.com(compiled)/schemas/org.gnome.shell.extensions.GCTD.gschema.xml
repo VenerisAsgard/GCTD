@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.GCTD" path="/org/gnome/shell/extensions/GCTD/">
+    <!-- INDICATOR AND NOTIFICATIONS -->
+    <key name="show-indicator" type="b">
+      <default>true</default>
+    </key>
+    <key name="show-notifications" type="b">
+      <default>false</default>
+    </key>
+    <!-- ICON -->
+    <key name="home-path" type="s">
+        <default>""</default>
+    </key>
+    <key name="icon-path" type="s">
+        <default>""</default>
+    </key>
+    <key name="icon-size" type="i">
+        <default>80</default>
+    </key>
+    <key name="icon-opacity" type="i">
+        <default>255</default>
+    </key>
+    <!-- CORRECTION -->
+    <key name="height-correction" type="i">
+        <default>0</default>
+    </key>
+    <key name="width-correction" type="i">
+        <default>0</default>
+    </key>
+  </schema>
+</schemalist>
