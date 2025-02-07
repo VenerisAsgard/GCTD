@@ -2,6 +2,7 @@ import GLib from 'gi://GLib';
 import * as Main from 'resource:///org/gnome/shell/ui/main.js';
 import {Crosshair} from './crosshair.js'
 import {Indicator} from './indicator.js'
+import {Gamemode} from './gamemode.js'
 
 
 
@@ -21,8 +22,9 @@ export class Init {
         this.crosshair = new Crosshair(this.settings); //добавление сразу
         //
         
+        this.gamemode = new Gamemode(this.extension);
         
-        this.indicator = new Indicator(this.extension, this.crosshair);
+        this.indicator = new Indicator(this.extension, this.crosshair, this.gamemode);
         this.indicator.add();
     }
     

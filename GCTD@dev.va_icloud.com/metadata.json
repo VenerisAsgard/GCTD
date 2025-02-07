@@ -4,11 +4,9 @@
   "uuid": "GCTD@dev.va_icloud.com",
   "settings-schema": "org.gnome.shell.extensions.GCTD",
   "gettext-domain": "GCTD@dev.va_icloud.com",
-  "translations": {
-    "ru": "po/ru.po",
-    "en_US": "po/en.po"
-  },
+  "translations": {"ru": "po/ru_RU.po"},
   "url": "https://github.com/VenerisAsgard/GCTD/",
+  "version": "1.1",
   "shell-version": [
     "47"
   ]

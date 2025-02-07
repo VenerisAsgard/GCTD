@@ -1,0 +1,148 @@
+# Gnome Shell Extension - Game Crosshair To Desktop
+# Copyright (C) 2025 Veneris Asgard (dev.va@icloud.com)
+# This file is distributed under the same license as the GCTD@dev.va_icloud.com package.
+msgid ""
+msgstr ""
+"Project-Id-Version: 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-06 21:58+0300\n"
+"PO-Revision-Date: 2025-02-07 15:28+0300\n"
+"Last-Translator: VenerisAsgard <dev.va@icloud.com>\n"
+"Language-Team: Russian <localhost@lorem>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: extension.js:14
+msgid "GCTD@dev.va_icloud.com is enabled."
+msgstr "GCTD@dev.va_icloud.com включено."
+
+#: extension.js:22
+msgid "GCTD@dev.va_icloud.com is disabled."
+msgstr "GCTD@dev.va_icloud.com выключено."
+
+#: libs/crosshair.js:65
+msgid "The crosshair is displayed."
+msgstr "Прицел отображается."
+
+#: libs/crosshair.js:72
+msgid "The crosshair is hidden."
+msgstr "Прицел скрыт."
+
+#: libs/indicator.js:16
+msgid "Crosshair"
+msgstr "Прицел"
+
+#: libs/indicator.js:25
+msgid "Gamemode"
+msgstr "Игровой режим"
+
+#: libs/indicator.js:34
+msgid "Preferences"
+msgstr "Настройки"
+
+#: prefs.js:13 prefs.js:18
+msgid "Appearance"
+msgstr "Внешний вид"
+
+#: prefs.js:19
+msgid "Configure the appearance of the extension."
+msgstr "Настройки внешнего вида расширения."
+
+#: prefs.js:35
+msgid "Delete style"
+msgstr "Удалить стиль"
+
+#: prefs.js:104
+msgid "Open PNG Image"
+msgstr "Открыть PNG изображение"
+
+#: prefs.js:108
+msgid "Open"
+msgstr "Открыть"
+
+#: prefs.js:109
+msgid "Cancel"
+msgstr "Отмена"
+
+#: prefs.js:157
+msgid "Choose a new style from files"
+msgstr "Выбрать стиль из файлов"
+
+#: prefs.js:173
+msgid "Opacity"
+msgstr "Прозрачность"
+
+#: prefs.js:174
+msgid "Opacity (0-255)"
+msgstr "Прозрачность (0-255)"
+
+#: prefs.js:183
+msgid "Size"
+msgstr "Размер"
+
+#: prefs.js:184
+msgid "Crosshair size (in px)"
+msgstr "Размер прицела (в пикселях)"
+
+#: prefs.js:193
+msgid "Width deviation"
+msgstr "Отклонение по ширине"
+
+#: prefs.js:194
+msgid "Deviation in width relative to the center of the screen"
+msgstr "Отклонение по ширине относительно центра экрана"
+
+#: prefs.js:203
+msgid "Height deviation"
+msgstr "Отклонение по высоте"
+
+#: prefs.js:204
+msgid "Deviation in height relative to the center of the screen"
+msgstr "Отклонение по высоте относительно центра экрана"
+
+#: prefs.js:222
+msgid "Notifications"
+msgstr "Уведомления"
+
+#: prefs.js:227
+msgid "Notification"
+msgstr "Уведомления"
+
+#: prefs.js:228
+msgid "Set up extension notifications and indicator"
+msgstr "Настройки индикатора и уведомлений расширения"
+
+#: prefs.js:232
+msgid "Display indicator"
+msgstr "Отображать индикатор"
+
+#: prefs.js:233
+msgid "Display the indicator on the panel"
+msgstr "Отображать индикатор на панели"
+
+#: prefs.js:237
+msgid "Show Notifications"
+msgstr "Отображать уведомления"
+
+#: prefs.js:238
+msgid "Show extension notifications"
+msgstr "Отобразить уведомления расширения"
+
+#: prefs.js:246 prefs.js:251
+msgid "Credits"
+msgstr "Credits"
+
+#: prefs.js:252
+msgid "Credits page"
+msgstr "Страница Credits"
+
+#: prefs.js:255
+msgid "⭐ Extension page on GitHub ⭐"
+msgstr "⭐ Страница расширения на GitHub ⭐"
+
+#: prefs.js:262
+msgid "💬 Communication with the developer (Telegram) 💬"
+msgstr "💬 Связь с разработчиком (Telegram) 💬"
