@@ -37,7 +37,7 @@ cp -r GCTD@dev.va_icloud.com $HOME/.local/share/gnome-shell/extensions
 
 <br>
 
-<h1 align="center">Packaging</h1>
+<h1>Packaging</h1>
 <h3>Generate *.pot (Bash):</h3>
 <pre language="bash">
 <code>find . -name "*.js" -exec xgettext --from-code=UTF-8 --output=po/GCTD@dev.va_icloud.com.pot {} +</code>
@@ -49,6 +49,6 @@ cp -r GCTD@dev.va_icloud.com $HOME/.local/share/gnome-shell/extensions
 
 <br>
 
-<h1 align="center">Thanks</h1>
+<h1>Thanks</h1>
 <h5><a href="https://gitlab.gnome.org/jrahmatzadeh/just-perfection">Just Perfection</a></h5>
 <h5><a href="https://github.com/ExposedCat">ExposedCat</a></h5>
