@@ -20,8 +20,8 @@
 <!--<h1>Installation</h1>-->
 <!--<h2>GNOME website (recommended)</h2>-->
 <!--<a href="https://extensions.gnome.org/extension/7853/game-crosshair-to-desktop/">-->
-    <!-- Button SVG by Just Perfection developer https://extensions.gnome.org/accounts/profile/JustPerfection-->
-  <!--<img src="./assets/download-from-ego.svg" height="80">-->
+<!-- <div>Button SVG by Just Perfection developer https://extensions.gnome.org/accounts/profile/JustPerfection</div>-->
+<!--<img src="./screenshots/download-from-ego.svg" height="80">-->
 <!--</a>-->
 
 <!--<br>-->
