@@ -6,8 +6,10 @@
 
 <div align="center">
   <h1 align="center">Screenshots</h1>
+  <div style="display: inline-block;">
   <img style="width:512px" src="./screenshots/1.png" alt="Screenshot_1">
   <img style="width:512px" src="./screenshots/2.png" alt="Screenshot_2">
+  </div>
 </div>
 <div align="center">
   [![](https://img.shields.io/badge/author%20blog%20on-Telegram-informational?style=for-the-badge&logo=telegram&logoColor=26A5E4&color=26A5E4)](https://t.me/venerisasgard)
