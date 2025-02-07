@@ -12,7 +12,7 @@
   </div>
 </div>
 <div align="center">
-  [![](https://img.shields.io/badge/author%20blog%20on-Telegram-informational?style=for-the-badge&logo=telegram&logoColor=26A5E4&color=26A5E4)](https://t.me/venerisasgard)
+  <img alt="Static Badge" src="https://img.shields.io/badge/Author_on-telegram-delicious?logo=Telegram&logoSize=auto&color=%2327a7e7&link=https%3A%2F%2Ft.me%2Fvenerisasgard">
 </div>
 
 <br>
@@ -50,5 +50,5 @@ cp -r GCTD@dev.va_icloud.com $HOME/.local/share/gnome-shell/extensions
 <br>
 
 <h1 align="center">Thanks</h1>
-[Just Perfection](www.youtube.com/@jperfection)
-[ExposedCat](https://github.com/ExposedCat)
+<h1><a href="www.youtube.com/@jperfection">Just Perfection</a></h1>
+<h1><a href="https://github.com/ExposedCat">ExposedCat</a></h1>
