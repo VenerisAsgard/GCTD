@@ -7,8 +7,8 @@
 <div align="center">
   <h1 align="center">Screenshots</h1>
   <div style="display: inline-block;">
-  <img style="width:512px" src="./screenshots/1.png" alt="Screenshot_1">
-  <img style="width:512px" src="./screenshots/2.png" alt="Screenshot_2">
+  <img style="width:512px; float: left;" src="./screenshots/1.png" alt="Screenshot_1">
+  <img style="width:512px; float: left;" src="./screenshots/2.png" alt="Screenshot_2">
   </div>
 </div>
 <div align="center">
