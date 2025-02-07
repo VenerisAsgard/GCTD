@@ -11,9 +11,6 @@
   <img style="width:512px; float: left;" src="./screenshots/2.png" alt="Screenshot_2">
   </div>
 </div>
-<div align="center">
-  <img alt="Static Badge" src="https://img.shields.io/badge/Author_on-telegram-delicious?logo=Telegram&logoSize=auto&color=%2327a7e7&link=https%3A%2F%2Ft.me%2Fvenerisasgard">
-</div>
 
 <br>
 
