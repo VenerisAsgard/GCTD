@@ -50,5 +50,5 @@ cp -r GCTD@dev.va_icloud.com $HOME/.local/share/gnome-shell/extensions
 <br>
 
 <h1 align="center">Thanks</h1>
-<h5><a href="www.youtube.com/@jperfection">Just Perfection</a></h5>
+<h5><a href="https://gitlab.gnome.org/jrahmatzadeh/just-perfection">Just Perfection</a></h5>
 <h5><a href="https://github.com/ExposedCat">ExposedCat</a></h5>
