@@ -12,16 +12,14 @@ export class Init {
     }
     start() {
         this.settings = this.extension.getSettings();
-        if (this.settings.get_string('home-path') == "") {
-            this.settings.set_string('home-path', GLib.get_home_dir());
-        }
+        //if (this.settings.get_string('home-path') == "") {
+        //    this.settings.set_string('home-path', GLib.get_home_dir());
+        //}
         if (this.settings.get_string('icon-path') == "") {
-            this.settings.set_string('icon-path', `${GLib.get_home_dir()}/.local/share/gnome-shell/extensions/GCTD@dev.va_icloud.com/resources/CH/CR1.png`);
+            this.settings.set_string('icon-path', `${this.extension.path}/resources/CH/CR1.png`);
         }
         
-        this.crosshair = new Crosshair(this.settings); //добавление сразу
-        //
-        
+        this.crosshair = new Crosshair(this.settings);
         this.gamemode = new Gamemode(this.extension);
         
         this.indicator = new Indicator(this.extension, this.crosshair, this.gamemode);

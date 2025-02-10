@@ -7,7 +7,7 @@ import { gettext as _ } from 'resource:///org/gnome/shell/extensions/extension.j
 
 
 
-const VALUES = {showing: false, MorP: false, MAX_VALUE: 255, MIN_VALUE: 0, crosshair_object: null,}
+const VALUES = {showing: false, animate: true, MorP: false, MAX_VALUE: 255, MIN_VALUE: 0, crosshair_object: null,}
 
 
 
@@ -32,6 +32,7 @@ export class Crosshair {
             let iconSize = this.settings.get_int('icon-size');
             let iconOpacity = this.settings.get_int('icon-opacity');
             VALUES.showing = true;
+            VALUES.animate = true;
             Main.layoutManager.uiGroup.add_child(this.ch);
 
             function animate(x, value) {
@@ -50,9 +51,12 @@ export class Crosshair {
                         mode: Clutter.AnimationMode.LINEAR,
                         onComplete: () => {
                             GLib.timeout_add(GLib.PRIORITY_DEFAULT, 0, () => animate(x, value));
+                            
                         }
                     });
                     
+                }else {
+                    GLib.SOURCE_REMOVE;  //remove timeout on VALUES.showing=false
                 }
             }
             GLib.timeout_add(GLib.PRIORITY_DEFAULT, 0, () => animate(this.ch, iconOpacity));

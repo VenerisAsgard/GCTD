@@ -7,19 +7,19 @@ import * as Main from 'resource:///org/gnome/shell/ui/main.js';
 
 export default class GCTD_Extension extends Extension {
     enable() {        
-        this.settings = this.getSettings();
+        this.settings = this.getSettings(); //needed for this.extension.settings
         this.init = new Init(this);
         this.init.start();
-        log("----------------------------------");
-        log(_("GCTD@dev.va_icloud.com is enabled."));
-        log("----------------------------------");
+        console.info("----------------------------------");
+        console.info(_("GCTD@dev.va_icloud.com is enabled."));
+        console.info("----------------------------------");
     }
 
     disable() {
         this.init.stop();
         this.init = null;
-        log("-----------------------------------");
-        log(_("GCTD@dev.va_icloud.com is disabled."));
-        log("-----------------------------------");
+        console.info("-----------------------------------");
+        console.info(_("GCTD@dev.va_icloud.com is disabled."));
+        console.info("-----------------------------------");
     }
 }

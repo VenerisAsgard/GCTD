@@ -29,7 +29,7 @@ export default class MainPreferences extends ExtensionPreferences {
         
         
         
-        const GLOBAL = {files: [], c_current: {}, c_childs: [],directoryPath: `${window.settings.get_string('home-path')}/.local/share/gnome-shell/extensions/GCTD@dev.va_icloud.com/resources/CH`}
+        const GLOBAL = {files: [], c_current: {}, c_childs: [], directoryPath: this.path + '/resources/CH'}; //directoryPath need for prefs.js 48:48
         
         const delBtn = new Adw.ButtonRow({
             title: _("Delete style"),
